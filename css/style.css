@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    font-size: 18px;
+    padding: 5px;
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    font-size: 18px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3E8E41;
+  }
+  
+  #result {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+
+  @font-face {
+    font-family: "BASILEUS";
+    src: url(../assets/fonts/BASILEUS.TTF);
+  }
+  
+  @font-face {
+    font-family: "gelio";
+    src: url(../assets/fonts/gelio.ttf);
+  }
+  
+  @font-face {
+    font-family: "olympus";
+    src: url(../assets/fonts/olympus.ttf);
+  }
+  
+  @font-face {
+    font-family: "Yggdrasil";
+    src: url(../assets/fonts/Yggdrasil.ttf);
+  }
+  
+
+  *{
+      margin: 0 0 0 0;
+  }
+  
+  /*RESPONSIVIDADE DO BANNER PRINCIPAL*/
+@media screen and (max-width: 1800px) {
+  .banner-principal {
+      width: 100%;
+      height: auto;
+      position: relative;
+}
+}
+
+.titulo1{
+  background-color: black;
+  color: #FDCD45;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "olympus";
+}
+
+
+footer {
+  background-color: #723823;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  color: #ffb977;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: kollektif;
+  
+  }
