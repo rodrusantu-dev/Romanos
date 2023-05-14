@@ -1,0 +1,13 @@
+historia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    flex-direction: column;;
+    background-color: #9fc5a0;
+    color: rgb(28, 28, 29);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 8vh;
+    padding-right: 8vh;
+}
