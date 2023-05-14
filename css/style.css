@@ -34,26 +34,11 @@ body {
     margin-top: 20px;
   }
 
-  @font-face {
-    font-family: "BASILEUS";
-    src: url(../assets/fonts/BASILEUS.TTF);
-  }
-  
-  @font-face {
-    font-family: "gelio";
-    src: url(../assets/fonts/gelio.ttf);
-  }
-  
+ 
   @font-face {
     font-family: "olympus";
     src: url(../assets/fonts/olympus.ttf);
-  }
-  
-  @font-face {
-    font-family: "Yggdrasil";
-    src: url(../assets/fonts/Yggdrasil.ttf);
-  }
-  
+  } 
 
   *{
       margin: 0 0 0 0;
@@ -91,3 +76,24 @@ footer {
   font-family: kollektif;
   
   }
+
+ pesquisa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    flex-direction: column;
+  }
+
+  .containerRetun{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    flex-direction: column;
+    background-color: #9fc5a0;
+    color: aliceblue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
